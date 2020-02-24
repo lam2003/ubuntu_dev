@@ -1,0 +1,11 @@
+version: '2'
+services:
+  ubuntu_dev:
+    image: "ubuntu_dev:latest"
+    ports:
+      - "36000:36000"
+      - "1935:1935"
+      - "80:80"
+    volumes:
+      - D:/ubuntu_dev_data:/home/linmin
+      - D:/go_path:/go_path
