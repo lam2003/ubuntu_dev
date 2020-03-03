@@ -1,7 +1,7 @@
 version: '2'
 services:
   ubuntu_dev:
-    image: "ubuntu_dev:latest"
+    image: "lam2003/ubuntu_dev:latest"
     ports:
       - "36000:36000"
       - "1935:1935"
